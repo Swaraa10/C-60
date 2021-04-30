@@ -1,0 +1,33 @@
+body{
+    text-align:center;
+}
+h1{
+    font-size:40px;
+    font-weight:bold;
+    font-family: 'Krona One', sans-serif;
+}
+#apps{
+    width:100%;
+background:linear-gradient(#AAB7B8 0%,#82E0AA 100%);
+}
+.line{
+    height:6px;
+    width:70px;
+    background-color:black;
+    margin:8px auto;
+}
+#games{
+    background-color:darkviolet;
+    width:100%;
+}
+img{
+    height:300px;
+    transition:tranform .2s;
+}
+img:hover{
+    transform:scale(.9);
+}
+#chatbot{
+    width:100%;
+    background-color:hotpink;
+}
